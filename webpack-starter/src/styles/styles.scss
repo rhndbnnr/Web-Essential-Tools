@@ -1,0 +1,19 @@
+$primary: red;
+$secondary: green;
+$fontcolor: #777;
+
+h1 {
+  color: $primary;
+}
+
+h2 {
+  color: $secondary;
+}
+
+p {
+  font-size: 16px;
+  color: $fontcolor;
+  & span {
+    color: $secondary;
+  }
+}
